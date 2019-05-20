@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+<title>3D Animation</title>
+<style>
+.sidenav{
+background-image:url("sider-miles1.jpg");
+  height: 1300px;
+  width: 294px;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left:0;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 294px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+ <div class="sidenav">
+  <a href="index.html">Home</a>
+  <a href="page1.html">Traditional/2D Animation</a>
+  <a href="page2.html">3D Animation</a>
+  <a href="page3.html">Stop Motion Animation</a>
+  <a href="page4.html">Motion Graphics</a>
+</div>
+<div class="main">
+  <h1>3D Animation</h1>
+	<p>It is the process of generating three-dimensional moving images in a digital environment. Careful manipulation of 3D models or objects is carried out within 3D software for exporting picture sequences giving them the illusion of animation or movement. However, this is completely based on the technique used for manipulating the objects. The procedure of generating 3D is sequentially categorized into three main sections and these are modeling, layout and animation and rendering. Modeling is the phase that describes the procedure of generating 3D objects within a certain scene. Layout and animation phase describes the process followed for positioning and animating the objects within a certain scene. Lastly, rendering described the end result or output of completed computer graphics. The process of production is successfully completed with the careful combination of the sections mentioned above and also some other sub-sections. The market is filled with several software used for the creation of 3D Animation and these range from the professional high-end ones to the affordable low-end versions. Next, we will try and get through with the differences between the two animations.</p>
+	<p>3D figures are rigged with a virtual skeleton.The limbs, eyes, mouth, clothes, etc. are moved by the animator on keyframes. Positions in between keyframes are filled:  </p>
+  <ul>
+	  <h3> Brute Force</h3>
+      <ul>
+        <li>Manually set values for every frame </li>
+        <li>Extremely expensive</li>
+		</ul>
+	<h3>Traditional Keyframing </h3>
+		<ul>
+        <li> In-between frames are specified by beginners </li>
+        <li>Still extremely expensive – Computer Keyframing </li>
+        <li>In-between frames are computer generated </li>
+        <li>Relatively cheap</li>
+      </ul>
+  </ul> 
+  <blockquote>
+      <p> Finally, the animation is rendered</p>
+  </blockquote>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+	  <iframe width="1587" height="600" src="https://www.youtube.com/embed/gZyjJtBIlow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+	   <iframe width="1587" height="600" src="https://www.youtube.com/embed/2REkk9SCRn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+     <iframe width="1587" height="600" src="https://www.youtube.com/embed/GPiGPK3KFc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+	  <iframe width="1587" height="600" src="https://www.youtube.com/embed/zON0wDD7VJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+   <iframe width="1587" height="600" src="https://www.youtube.com/embed/B6uuIHpFkuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+	  <iframe width="1587" height="600" src="https://www.youtube.com/embed/PDHIyrfMl_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img src="resources/TheShortStoryoftheFoxandMouse-Thumbnail.PNG" alt="3D Animated Short: A Fox And A Mouse - by ESMA" width="268" height="145" class="demo cursor" onclick="currentSlide(1)">
+    </div>
+    <div class="column"> 
+      <img src="resources/Heartbeat-Thumbanil.PNG" alt="In a Heartbeat - Animated Short Film" width="270" height="145" class="demo cursor" style="width:100%, height:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" style="width:100%" src="resources/FarewellThumbnail.PNG" onclick="currentSlide(3)" alt="Animated Short Film Farewell by ESMA ">
+    </div>
+    <div class="column">
+      <img src="resources/TheWishgranterThumbnail.PNG" alt="Animated Short Film The Wishgranter by Wishgranter Team" width="260" height="145" class="demo cursor" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" style="width:100%" src="resources/PurlSHort-Thumbnail.PNG" onclick="currentSlide(5)" alt="Purl | Pixar SparkShorts">
+    </div> 
+    <div class="column">
+      <img class="demo cursor" style="width:100%" src="resources/Alike-Thumbnail.PNG" onclick="currentSlide(6)" alt="Animated Short Film Alike by Daniel Martínez Lara & Rafa Cano Méndez">
+    </div>
+  </div>
+	</div>
+	<div class="footer">
+      <hr>
+      <footer>
+        <address>
+        <br>United States
+          <br>&copy; Copyright 2019<br/>
+        </address>
+        <br>
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </footer>
+    </div>
+</div>
+	<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	</script>
+</body>
+</html>
+
