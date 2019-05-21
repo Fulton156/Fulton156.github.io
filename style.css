@@ -153,7 +153,9 @@ margin:30px;
 }
 .center {
 	align-content: center;
-	
+}
+.behind{
+align-content:center;
 }
 footer{
 	color:whitesmoke;
